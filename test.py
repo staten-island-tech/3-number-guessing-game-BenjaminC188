@@ -1,13 +1,12 @@
 def NumberGuessingGame():
-<<<<<<< HEAD
-    import random
-=======
     import random
     imput = y
     x = random (1 - 10)
-    y = imput
-    if x == y:
-        print("You've won!")
-
-
->>>>>>> a16f59cde2b578bf917ec39516ddd6f7fb9733c4
+    y = int(input("Guess a number between 1 and 10: "))
+    for i in range(3):
+        if x == y:
+            print("You've won!")
+        elif x > y:
+            print("Too low!")
+        elif x < y:
+            print("Too high!")
