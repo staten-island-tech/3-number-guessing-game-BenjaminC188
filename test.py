@@ -15,7 +15,7 @@ def number_guessing_game():
             print("You guessed the number!")
             print(guesses)
 
-number_guessing_game()
+print(number_guessing_game(5))
 
 
 
@@ -33,7 +33,7 @@ number_guessing_game()
 
 
 
-def lang(x):
+"""def lang(x):
     t = 0
     s = 0
     for char in x:
@@ -46,9 +46,23 @@ def lang(x):
         print("English")
     else:
         print("French")
-lang("One Two three")
+lang("One Two three")"""
+
+
+
+
+
+
 
 def spaces(y,t):
-    for char in y:
-        if char in t:
+    a = (".")
+    b = ("C")
+    for char in y,t:
+        print(char)
+        if b == a:
+            occupied + 0
+        elif b == b:
+            occupied += 1
+            print(occupied)
+
 spaces("CCC..", ".C.C.C")
