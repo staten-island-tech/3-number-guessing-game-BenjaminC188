@@ -1,21 +1,25 @@
 import random
-
+x = 0  
 def number_guessing_game():
     y = random.randint(1, 10)
-    x = 0
     guesses = []
     while x != y:
-        x = int(input("Guess a number 1 to 10"))
+        x = int(input("Guess a number between 1 and 10"))
         guesses.append(x)
         if x < y:
             print("Too low")
+            print(guesses)
         elif x > y:
             print("Too high")
+            print(guesses)
         else:
             print("You guessed the number!")
-            print(guesses)
+            print("guesses:")
+            for guess in guesses:
+                print(guess)
 
-print(number_guessing_game)
+number_guessing_game()
+
 
 
 
