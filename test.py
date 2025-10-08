@@ -3,6 +3,7 @@ x = 0
 def number_guessing_game():
     y = random.randint(1, 10)
     guesses = []
+    x = 0
     while x != y:
         x = int(input("Guess a number between 1 and 10"))
         guesses.append(x)
