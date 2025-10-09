@@ -5,7 +5,7 @@ def number_guessing_game():
     guesses = []
     x = 0
     while x != y:
-        x = int(input("Guess a number between 1 and 10"))
+        x = int(input("Guess a number between 1 and 10:"))
         guesses.append(x)
         if x < y:
             print("Too low")
