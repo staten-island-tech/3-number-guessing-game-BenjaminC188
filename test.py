@@ -1,5 +1,5 @@
 import random
-x = 0  
+x = 0
 def number_guessing_game():
     y = random.randint(1, 10)
     guesses = []
@@ -16,10 +16,8 @@ def number_guessing_game():
         else:
             print("You guessed the number!")
             print("guesses:")
-            for guess in guesses:
-                print(guess)
-
-number_guessing_game()
+            print(guesses)
+    
 
 
 
@@ -29,6 +27,23 @@ number_guessing_game()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+"""student = {
+    'name': 'Cadee',
+    'age' : 15,
+    'grades' : (80,90,100)
+}
+print(student['name'])"""
 
 
 
@@ -59,15 +74,10 @@ lang("One Two three")"""
 
 
 
-def spaces(y,t):
-    a = (".")
-    b = ("C")
-    for char in y,t:
-        print(char)
-        if b == a:
-            occupied + 0
-        elif b == b:
-            occupied += 1
-            print(occupied)
-
-spaces("CCC..", ".C.C.C")
+"""def occupied(n,y,t):
+    both = 0
+    for i in range(n):
+        if (y[i] == "C" and t[i] == "C"):
+            both += 1 
+    return both
+print(occupied(5, "CCC..", "C.C.C"))"""
