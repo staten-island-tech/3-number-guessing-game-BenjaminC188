@@ -17,7 +17,7 @@ def number_guessing_game():
             print("You guessed the number!")
             print("guesses:")
             print(guesses)
-    
+number_guessing_game()
 
 
 
